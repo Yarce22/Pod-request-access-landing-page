@@ -8,14 +8,14 @@ const MobileBody = () => {
     <article>
       <h1 className="text-3xl text-title text-center font-extralight leading-10">PUBLISH YOUR PODCASTS <span className=" text-clear text-center font-extralight">EVERYWHERE.</span></h1>
 
-      <p className="py-10 text-[21px] text-center text-body font-light">
+      <p className="py-7 text-[20px] text-center text-body font-light">
         Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!
       </p>
 
-      <picture className='flex '>
+      <picture className='flex justify-between w-full h-5 my-5'>
         <img src={spotify} alt="spotify-logo" />
         <img src={apple} alt="apple-logo" />
-        <img src={google} alt="google-logo" />
+        <img className="my-1 h-4 text-center" src={google} alt="google-logo" />
         <img src={pocket} alt="pocket-logo" />
       </picture>
     </article>

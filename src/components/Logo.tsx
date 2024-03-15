@@ -3,9 +3,7 @@ import logo from '../assets/desktop/logo.svg';
 const Logo = () => {
   return (
     <>
-      <div className="flex gap-3">
-      <img className='w-52' src={logo} alt="logo" />
-      </div>
+      <img className='w-44 mb-10' src={logo} alt="logo" />
     </>
   )
 }
