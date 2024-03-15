@@ -9,11 +9,12 @@ export default {
       colors: {
         background: '#121725',
         title: '#54E6AF',
-        inpit: '#2C344B',
+        input: '#2C344B',
         clear: '#FFF',
         social: '#5A668A',
         hover: '#B3FFE2',
-        error: '#FB3E3E'
+        error: '#FB3E3E',
+        body: '#C2CBE5'
       },
       fontFamily: {
         chivo: ['Chivo', 'sans-serif'],
