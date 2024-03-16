@@ -1,3 +1,4 @@
+import Inputs from './Inputs';
 import spotify from '../assets/desktop/spotify.svg'
 import apple from '../assets/desktop/apple-podcast.svg'
 import google from '../assets/desktop/google-podcasts.svg'
@@ -18,6 +19,7 @@ const MobileBody = () => {
         <img className="my-0.5 h-3 text-center" src={google} alt="google-logo" />
         <img src={pocket} alt="pocket-logo" />
       </picture>
+      <Inputs />
     </article>
   );
 }
