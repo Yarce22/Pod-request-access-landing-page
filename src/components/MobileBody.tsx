@@ -6,9 +6,9 @@ import pocket from '../assets/desktop/pocket-casts.svg'
 const MobileBody = () => {
   return (
     <article>
-      <h1 className="text-3xl text-title text-center font-extralight leading-10">PUBLISH YOUR PODCASTS <span className=" text-clear text-center font-extralight">EVERYWHERE.</span></h1>
+      <h1 className="text-2xl text-title text-center font-extralight leading-10">PUBLISH YOUR PODCASTS <span className=" text-clear text-center font-extralight">EVERYWHERE.</span></h1>
 
-      <p className="py-7 text-[20px] text-center text-body font-light">
+      <p className="py-7 text-[15px] text-center text-body font-light">
         Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!
       </p>
 
