@@ -12,10 +12,10 @@ const MobileBody = () => {
         Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts and more!
       </p>
 
-      <picture className='flex justify-between w-full h-5 my-5'>
+      <picture className='flex justify-between w-full h-4 my-5'>
         <img src={spotify} alt="spotify-logo" />
         <img src={apple} alt="apple-logo" />
-        <img className="my-1 h-4 text-center" src={google} alt="google-logo" />
+        <img className="my-0.5 h-3 text-center" src={google} alt="google-logo" />
         <img src={pocket} alt="pocket-logo" />
       </picture>
     </article>
